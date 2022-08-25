@@ -4,7 +4,8 @@ body{margin: 0px;
 
 #header {width: auto; 
      height: 40px; 
-     background-color: #521891a9;}
+     background-color: #521891a9; }
+     
 
 #header h1 {font-size: 30px; 
      font-family: 'Oleo Script Swash Caps', cursive; 
@@ -14,14 +15,16 @@ body{margin: 0px;
 #nav {width: auto; 
      height: 80px; 
      position: fixed;
-     background-color: #9264c4;}
+     background-color: #521891a9;}
 
 #home, #about, #contact 
-     {width: 449px; 
+     {width: 447px; 
      height: 80px; 
-     float: left; }
+     float: left;}
+
 #home:hover,#about:hover, #contact:hover 
-     {background-color: #521891a9;}
+     {background-color: #2b0b4da9;
+     border: 2px solid white;}
 
 a:link , a:visited , a:active 
      {color: white; 
