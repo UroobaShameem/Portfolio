@@ -15,12 +15,13 @@ body{margin: 0px;
 #nav {width: auto; 
      height: 80px; 
      position: fixed;
-     background-color: #521891a9;}
+     background-color: #521891a9;
+     display: flex;
+     justify-content: space-between;}
 
 #home, #about, #contact 
-     {width: 448px; 
-     height: 80px; 
-     float: left;}
+     {width: 506px; 
+     height: 80px;}
 
 #home:hover,#about:hover, #contact:hover 
      {background-color: #2b0b4da9;
