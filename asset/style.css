@@ -1,10 +1,9 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: rgb(2,0,36);
     background: linear-gradient(122deg, rgba(2,0,36,1) 0%, rgba(20,20,113,1) 29%, rgba(3,167,215,1) 85%, rgba(0,212,255,1) 100%);
     background-size:cover;
-    position:relative;
+    position: relative;
 }
 /* text css above hero image*/
 .hero_title {
@@ -20,4 +19,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+#about {
+    height:100vh;
+    background: linear-gradient(122deg, rgba(2,0,36,1) 0%, rgba(20,20,113,1) 29%, rgba(3,167,215,1) 85%, rgba(0,212,255,1) 100%);
+    background-size:cover;
+    position: relative;
 }
