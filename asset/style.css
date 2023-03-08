@@ -26,3 +26,34 @@
 #about-text {
     font-size: 1.2rem;
 }
+
+#link {
+    position: relative;
+}
+#overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+#link:hover #overlay {
+    opacity: 0.9;
+}
+#link-btn{
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
