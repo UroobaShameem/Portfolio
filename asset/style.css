@@ -2,6 +2,7 @@
 body {
     background-color: #0b192e;
     color: white;
+    font-family: 'Merriweather', serif;
 }
 .bgimage {
     height:100vh;
@@ -55,6 +56,7 @@ nav.shift ul li a {
 }
 .hero_desc {
     font-size: 2rem;
+    font-family: 'Righteous', cursive;
 }
 .hero-text {
     text-align: center;
@@ -62,6 +64,7 @@ nav.shift ul li a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Satisfy', cursive;
 }
 #heading {
     font-size: 3rem;
