@@ -20,9 +20,8 @@ body {
     color: white;
 }
 
-#nav:hover{
-    background-color: #5db8d6;
-    color: white;
+#nav a:hover {
+    color: #5db8d6;
 }
   
 /* text css above hero image*/
